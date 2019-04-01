@@ -1,25 +1,31 @@
-json_unit
-json_benchmarks
-json_benchmarks_simple
-fuzz-testing
+# emacs backup files
+*~
+\#*\#
 
-*.dSYM
+# build directories
+[Bb]uild*/
+BUILD*/
+[Dd]ebug*/
+DEBUG*/
+[Rr]elease*/
+RELEASE*/
+[xX]64*/
+doc/
+
+# other directories
+DataBinding/
+Asm/
+
+# binaries
 *.o
-*.gcno
-*.gcda
-
-build
-build_coverage
-clang_analyze_build
-
-doc/xml
-doc/html
-me.nlohmann.json.docset
-
-benchmarks/files/numbers/*.json
-
-.idea
-cmake-build-debug
-
-test/test-*
-/.vs
+*.O
+*.a
+*.A
+*.obj
+*.OBJ
+*.lib
+*.LIB
+*.dll
+*.DLL
+*.exe
+*.EXE
